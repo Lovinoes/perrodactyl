@@ -41,12 +41,12 @@ CTRL+W = requirepass foobared
 
 -> change #requirepass foobared
 to
--> requirepass YOUR-PASSWORD
+-> requirepass PASSWORD-HERE
 then type exit
 
 redis-cli
-CONFIG SET requirepass "YOUR-PASSWORD"
-AUTH "YOUR-PASSWORD" (without quotation marks)
+CONFIG SET requirepass "PASSWORD-HERE"
+AUTH "PASSWORD-HERE" (without quotation marks)
 exit
 
 
