@@ -2,4 +2,4 @@
 
 
 
-mysql-redis_setup.txt   =   MySQL and Redis setup guide for the installation
+mysql-redis_setup.txt   =   MySQL and Redis guide for the installation
