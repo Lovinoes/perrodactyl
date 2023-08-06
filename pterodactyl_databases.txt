@@ -32,6 +32,3 @@ FLUSH PRIVILEGES;
 CREATE USER 'pterodactyluser'@'%' IDENTIFIED BY 'PASSWORD-HERE';
 GRANT ALL PRIVILEGES ON *.* TO 'pterodactyluser'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-
-
-######################################################################################################################################################################################################
