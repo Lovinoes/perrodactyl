@@ -1,3 +1,3 @@
-## Pterodactyl Stuff
-- pterodactyl_databases.txt
+### Pterodactyl Stuff
+- database-setup.md
   
