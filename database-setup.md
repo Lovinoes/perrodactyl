@@ -1,6 +1,6 @@
 ## SETTING UP EXTERNAL DATABASE ACCES
 ```bash
-ufw allow from 172.16.0.0/14
+ufw allow in on pterodactyl0 to 172.18.0.1 port 3306 proto tcp
 nano /etc/mysql/mariadb.conf.d/50-server.cnf # change 127.0.0.1 to 0.0.0.0
 ```
 ```bash
@@ -10,9 +10,8 @@ find /etc -iname my.cnf # Open my.cnf, add text below to the bottom of the file 
 bind-address=0.0.0.0
 ```
 
-## RESTARTING MYSQL/MARIADB
+### RESTARTING MARIADB
 ```bash
-systemctl restart mysql
 systemctl restart mariadb
 ```
 
