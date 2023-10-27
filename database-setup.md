@@ -1,4 +1,4 @@
-## SETTING UP EXTERNAL DATABASE ACCES
+### SETTING UP EXTERNAL DATABASE ACCES
 ```bash
 ufw allow in on pterodactyl0 to 172.18.0.1 port 3306 proto tcp
 ```
@@ -18,7 +18,7 @@ bind-address=0.0.0.0
 systemctl restart mariadb
 ```
 
-## SETTING UP A DATABASE HOST
+### SETTING UP A DATABASE HOST
 #### CHANGE PASSWORD-HERE TO AN ACTUAL AND SECURE PASSWORD!
 ```bash
 CREATE USER 'pterodactyluser'@'%' IDENTIFIED BY 'PASSWORD-HERE'; 
