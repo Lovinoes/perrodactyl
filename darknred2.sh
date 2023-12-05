@@ -17,6 +17,6 @@ chown -R www-data:www-data /var/www/pterodactyl/*
 php artisan view:clear
 php artisan config:clear
 php /var/www/pterodactyl/artisan up
-echo "DarkNRed theme has been added ""successfully"
-echo "DarkNRed Theme ""erfolgreich"" hinzugefügt"
+echo "DarkNRed theme has been added successfully."
+echo "DarkNRed Theme wurde erfolgreich hinzugefügt."
 echo "Credits: https://github.com/Sigma-Production/PteroFreeStuffinstaller"
