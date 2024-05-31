@@ -1,2 +1,2 @@
 ### storage
-literally my config files
+literally my configuration files, scripts etc.
