@@ -19,4 +19,5 @@ php artisan up
 
 echo ""
 echo "<- DarkNRed theme has been added successfully. ->"
+echo "<- Credits: https://github.com/Sigma-Production/PteroFreeStuffinstaller ->"
 echo ""
