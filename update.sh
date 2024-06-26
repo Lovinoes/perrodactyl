@@ -5,7 +5,7 @@ curl -L https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.
 chmod -R 755 storage/* bootstrap/cache
 
 export COMPOSER_ALLOW_SUPERUSER=1
-composer install --no-dev --optimize-autoloader
+composer install --no-dev --optimize-autoloader --no-plugins
 
 php artisan view:clear
 php artisan config:clear
