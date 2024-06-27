@@ -4,7 +4,7 @@ cd /var/www/pterodactyl
 export NODE_OPTIONS=--openssl-legacy-provider
 
 php artisan down
-sudo curl https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNRed/DarkNRed.tar.gz | sudo tar -xz
+sudo curl https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/v2.0/resources/DarkNRed/DarkNRed.tar.gz | sudo tar -xz
 if ! command -v yarn -v &> /dev/null
 then
     npm i -g yarn
