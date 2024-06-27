@@ -2,7 +2,7 @@
 
 The repository contains the following files:
 - **[config.jsonc](https://github.com/Lovinoes/storage/blob/main/config.jsonc):** Configuration file for fastfetch
-- **[nginx.conf](https://github.com/Lovinoes/storage/blob/main/nginx.conf):** Configuration file for NGiNX
+- **[nginx.conf](https://github.com/Lovinoes/storage/blob/main/nginx.conf):** Configuration file for NGiNX (user:group = nginx:nginx btw.)
 - **[my.cnf](https://github.com/Lovinoes/storage/blob/main/my.cnf):** Configuration file for MySQL/MariaDB
 - **[darknred.sh](https://github.com/Lovinoes/storage/blob/main/darknred.sh):** Theme Installer for Pterodactyl ([Sigma-Production](https://github.com/Sigma-Production/PteroFreeStuffinstaller/tree/v2.0?tab=readme-ov-file)) ([NodeJS](https://github.com/nodesource/distributions) is required)
 - **[update.sh](https://github.com/Lovinoes/storage/blob/main/update.sh):** Update script for Pterodactyl
