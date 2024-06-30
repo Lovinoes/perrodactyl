@@ -11,7 +11,12 @@ then
 fi
 yarn
 yarn build:production
-chown -R nginx:nginx /var/www/pterodactyl/*
+# Change ownership of the files
+if [[ -f /etc/redhat-release ]]; then
+    chown -R nginx:nginx /var/www/pterodactyl/* || { echo "Failed to change file ownership"; exit 1; }
+elif [[ -f /etc/debian_version ]]; then
+    chown -R www-data:www-data /var/www/pterodactyl/* || { echo "Failed to change file ownership"; exit 1; }
+fi
 
 php artisan view:clear
 php artisan config:clear
