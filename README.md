@@ -6,6 +6,7 @@ The repository contains the following files:
 - **[my.cnf](https://github.com/Lovinoes/storage/blob/main/my.cnf):** Configuration file for MySQL/MariaDB
 - **[darknred.sh](https://github.com/Lovinoes/storage/blob/main/darknred.sh):** Theme Installer for Pterodactyl ([Sigma-Production](https://github.com/Sigma-Production/PteroFreeStuffinstaller/tree/v2.0?tab=readme-ov-file)) ([NodeJS](https://github.com/nodesource/distributions) is required)
 - **[update.sh](https://github.com/Lovinoes/storage/blob/main/update.sh):** Update script for Pterodactyl
+- **[update_v2.sh](https://github.com/Lovinoes/storage/blob/main/update_v2.sh):** Version 2 of the update script. This is one of my first Bash scripts. *lol*
 - 
 ```bash
 bash <(curl https://raw.githubusercontent.com/Lovinoes/storage/main/update.sh)
