@@ -25,5 +25,5 @@ fi
 php artisan queue:restart
 php artisan up
 echo ""
-echo "Updated Pterodactyl panel successfully."
+echo "Updated Pterodactyl Panel"
 echo ""
