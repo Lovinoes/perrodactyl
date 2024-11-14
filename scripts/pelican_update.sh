@@ -17,9 +17,9 @@ php artisan migrate --seed --force
 
 # Change ownership of the files
 if [[ -f /etc/redhat-release ]]; then
-    chown -R nginx:nginx /var/www/pterodactyl/* || { echo "Failed to change file ownership"; exit 1; }
+    chown -R nginx:nginx /var/www/pelican/* || { echo "Failed to change file ownership"; exit 1; }
 elif [[ -f /etc/debian_version ]]; then
-    chown -R www-data:www-data /var/www/pterodactyl/* || { echo "Failed to change file ownership"; exit 1; }
+    chown -R www-data:www-data /var/www/pelican/* || { echo "Failed to change file ownership"; exit 1; }
 fi
 
 # end
