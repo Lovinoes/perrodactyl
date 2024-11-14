@@ -1,7 +1,12 @@
-# storage
+# Storage
 
+*pterodactyl update script*
 ```bash
-bash <(curl https://raw.githubusercontent.com/Lovinoes/storage/main/update.sh)
+bash <(curl https://raw.githubusercontent.com/Lovinoes/storage/main/scripts/pterodactyl_update.sh)
+```
+*pelican update script*
+```bash
+bash <(curl https://raw.githubusercontent.com/Lovinoes/storage/main/scripts/pelican_update.sh)
 ```
 
 
@@ -10,3 +15,5 @@ This repository is licensed under the MIT License. See the [LICENSE](https://git
 
 ## Contact
 If you have any questions, feel free to contact me at lovinoes@lovinoes.de
+
+---
