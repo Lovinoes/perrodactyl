@@ -43,6 +43,7 @@
             "type": "swap",
             "format": "{/1}{-}{/}{/2}{-}{/}{} / {}"
         },
+        "disk",
         "break",
         "colors"
     ]
